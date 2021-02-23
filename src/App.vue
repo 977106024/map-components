@@ -1,14 +1,15 @@
 <template>
   <div id="app">
-    web高德地图组件封装
+    <Map></Map>
   </div>
 </template>
 
 <script>
-
+import Map from './components/Map'
 export default {
   name: 'App',
   components: {
+    Map
   }
 }
 </script>
